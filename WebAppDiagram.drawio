@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T22:01:29.240Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="QCs7IJiiuDxqe1Mehu0O" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T22:20:15.015Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="b7xZFTqahDEj5cX9YsB7" version="21.5.1" type="github">
   <diagram name="Page-1" id="-8F-MaRr2c5oIdHVKHW3">
     <mxGraphModel dx="794" dy="456" grid="1" gridSize="8" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,9 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="4uoRKx3dI8FAXuEbuPum-2" value="AWS" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=8;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#AAB7B8;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="184" y="80" width="568" height="536" as="geometry" />
-        </mxCell>
-        <mxCell id="4uoRKx3dI8FAXuEbuPum-11" value="Auto Scaling group" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=8;fontStyle=0;container=0;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.groupCenter;grIcon=mxgraph.aws4.group_auto_scaling_group;grStroke=1;strokeColor=#D86613;fillColor=none;verticalAlign=top;align=center;fontColor=#D86613;dashed=1;spacingTop=25;" vertex="1" parent="1">
-          <mxGeometry x="322.84" y="503" width="405.16" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4uoRKx3dI8FAXuEbuPum-5" value="Availability Zone us-east-1b" style="fillColor=none;strokeColor=#147EBA;dashed=1;verticalAlign=top;fontStyle=0;fontColor=#147EBA;whiteSpace=wrap;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="592" y="256" width="133.99" height="328" as="geometry" />
@@ -189,6 +186,15 @@
         </mxCell>
         <mxCell id="4uoRKx3dI8FAXuEbuPum-131" value="&lt;span style=&quot;font-size: 8px;&quot;&gt;EC2 instance&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="620.69" y="455" width="60" height="13.54" as="geometry" />
+        </mxCell>
+        <mxCell id="4uoRKx3dI8FAXuEbuPum-132" value="&lt;ul&gt;&lt;li&gt;DNS services with Amazon Route 53 – Provides DNS services to simplify domain management.&lt;/li&gt;&lt;li&gt;Edge caching with Amazon CloudFront – Edge caches high-volume content to decrease the latency to customers.&lt;/li&gt;&lt;li&gt;Edge security for Amazon CloudFront with AWS WAF – Filters malicious traffic, including cross site scripting (XSS) and SQL injection via customer-defined rules.&lt;/li&gt;&lt;li&gt;Load balancing with Elastic Load Balancing (ELB) – Enables you to spread load across multiple Availability Zones and Amazon EC2 Auto Scaling groups for redundancy and decoupling of services.&lt;/li&gt;&lt;li&gt;DDoS protection with AWS Shield – Safeguards your infrastructure against the most common network and transport layer DDoS attacks automatically.&lt;/li&gt;&lt;li&gt;Firewalls with security groups – Moves security to the instance to provide a stateful, host-level firewall for both web and application servers.&lt;/li&gt;&lt;li&gt;Caching with Amazon ElastiCache – Provides caching services with Redis or Memcached to remove load from the app and database, and lower latency for frequent requests.&lt;/li&gt;&lt;li&gt;Managed database with Amazon Relational Database Service (Amazon RDS) – Creates a highly available, multi-AZ database architecture with six possible DB engines.&lt;/li&gt;&lt;li&gt;Static storage and backups with Amazon Simple Storage Service (Amazon S3) – Enables simple HTTP-based object storage for backups and static assets like images and video.&lt;/li&gt;&lt;/ul&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="112" y="640" width="704" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="4uoRKx3dI8FAXuEbuPum-133" value="" style="rounded=1;arcSize=10;dashed=1;fillColor=none;gradientColor=none;dashPattern=1 1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="304" y="485.65" width="424" height="103.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4uoRKx3dI8FAXuEbuPum-134" value="&lt;font color=&quot;#7ea6e0&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;b&gt;DB Subnet Group&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="472" y="482" width="104" height="20.24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
